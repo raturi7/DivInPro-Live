@@ -16,14 +16,17 @@ var swiper = new Swiper(".slide-content", {
     },
 
     breakpoints:{
-        0: {
-            slidesPerView: 1,
-        },
-        520: {
-            slidesPerView: 2,
-        },
-        950: {
-            slidesPerView: 3,
-        },
+      0: {
+        slidesPerView: 1,
+        spaceBetween: 10, // Adjust the value as desired
+      },
+      520: {
+        slidesPerView: 2,
+        spaceBetween: 75, // Adjust the value as desired
+      },
+      950: {
+        slidesPerView: 3,
+        spaceBetween: 10, // Adjust the value as desired
+      },
     },
   });
