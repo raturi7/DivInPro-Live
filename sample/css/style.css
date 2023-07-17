@@ -1390,4 +1390,154 @@ ul>li .single-column-menu {
     margin: auto;
     justify-content: center;
   }
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+.moreText {
+  display: none;
+}
+.read-more-btn {
+  padding: 5px 6px;
+  background-color: var(--white);
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  cursor: pointer;
+}
+.read-more-btn
+:hover{
+  background-color: var(--white);
+  transition: all 0.3s ease-in-out;
+}
+
+.text.show-more .moreText {
+  display: inline;
+}
+.text.show-more .dots {
+  display: none;
+}
+
+.more_Text {
+  display: none;
+}
+.re_btn {
+  padding: 5px 6px;
+  background-color: var(--white);
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  cursor: pointer;
+}
+.re_btn:hover{
+  background-color: var(--white);
+  transition: all 0.3s ease-in-out;
+}
+
+.text_1.show-more .more_Text {
+  display: inline;
+}
+
+.text_1.show-more .dots {
+  display: none;
+}
+
+
+/* KPO */
+/* 1st card */
+
+.moreText1 {
+  display: none;
+}
+.btn1 {
+  padding: 5px 6px;
+  background-color: var(--white);
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  cursor: pointer;
+}
+.btn1:hover{
+  background-color: var(--white);
+  transition: all 0.3s ease-in-out;
+}
+
+.t1.show-more .moreText1 {
+  display: inline;
+}
+
+.t1.show-more .dots {
+  display: none;
+}
+
+
+
+
+/* KPO */
+/* 2nd card */
+
+.moreText2 {
+  display: none;
+}
+.btn2 {
+  padding: 5px 6px;
+  background-color: var(--white);
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  cursor: pointer;
+}
+.btn2:hover{
+  background-color: var(--white);
+  transition: all 0.3s ease-in-out;
+}
+
+.t2.show-more .moreText2 {
+  display: inline;
+}
+
+.t2.show-more .dots {
+  display: none;
+}
+
+
+
+/* KPO */
+/* 3rd card */
+
+.moreText3 {
+  display: none;
+}
+.btn3 {
+  padding: 5px 6px;
+  background-color: var(--white);
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  cursor: pointer;
+}
+.btn3:hover{
+  background-color: var(--white);
+  transition: all 0.3s ease-in-out;
+}
+
+.t3.show-more .moreText3 {
+  display: inline;
+}
+
+.t3.show-more .dots {
+  display: none;
+}
+
+.dots3{
+  display: none;
 }

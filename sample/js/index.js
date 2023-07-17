@@ -93,3 +93,40 @@ re_Btn.addEventListener("click", (e) => {
         re_Btn.innerText = "Read More";
     }
 });
+
+// KPO
+// 1st card
+const btn1 = document.querySelector(".btn1");
+const t1 = document.querySelector(".t1");
+btn1.addEventListener("click", (e) => {
+    t1.classList.toggle("show-more");
+    if (btn1.innerText === "Read More") {
+        btn1.innerText = "Read Less";
+    } else {
+        btn1.innerText = "Read More";
+    }
+});
+
+// 2nd card
+const btn2 = document.querySelector(".btn2");
+const t2 = document.querySelector(".t2");
+btn2.addEventListener("click", (e) => {
+    t2.classList.toggle("show-more");
+    if (btn2.innerText === "Read More") {
+        btn2.innerText = "Read Less";
+    } else {
+        btn2.innerText = "Read More";
+    }
+});
+
+// 3rd card
+const btn3 = document.querySelector(".btn3");
+const t3 = document.querySelector(".t3");
+btn3.addEventListener("click", (e) => {
+    t3.classList.toggle("show-more");
+    if (btn3.innerText === "Read More") {
+        btn3.innerText = "Read Less";
+    } else {
+        btn3.innerText = "Read More";
+    }
+});
