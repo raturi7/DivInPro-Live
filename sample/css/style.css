@@ -138,6 +138,14 @@ img {
   white-space: nowrap;
   font-size: 12px;
   padding: 5px 5px;
+  margin-left: 40px;
+}
+
+@media screen and (max-width: 991px){
+  .cont{
+    margin-top: 2%;
+    margin-left: 0;
+  }
 }
 
 .hero {
